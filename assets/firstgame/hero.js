@@ -27,7 +27,8 @@ cc.Class({
         var hero = this.node.getChildByName("RH_01").getComponent(cc.Animation);
         this.node.on(cc.Node.EventType.TOUCH_MOVE,function(e){
             var a = e.getDelta();
-            if (a.x < 0){
+            var heroXY = this.node.getChildByName("RH_01");
+            if (a.x < -1){
                 hero_action = 1;
                 if(hero_action != 1){
                     hero.play("m_left");
@@ -37,7 +38,7 @@ cc.Class({
                     hero_action = 3;
                 }
                 
-            }else if(a.x > 0){
+            }else if(a.x > 1){
                 hero_action = 2;
                 if(hero_action != 2){
                     hero.play("m_right");
@@ -46,7 +47,11 @@ cc.Class({
                     hero.play("b_right");
                     hero_action = 3;
                 }
-            }
+            };
+            var b = a;
+            b.x = heroXY.x + b.x;
+            b.y = heroXY.y + b.y;
+            heroXY.setPosition(b);
         }.bind(this),this);
     
     },
