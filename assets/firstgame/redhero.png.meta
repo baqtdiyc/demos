@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "32051fa4-5da1-4c14-bc6f-30f552b5d909",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "redhero": {
+      "ver": "1.0.3",
+      "uuid": "17453033-3f8c-4dba-a649-6a4ea332f9da",
+      "rawTextureUuid": "32051fa4-5da1-4c14-bc6f-30f552b5d909",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3,
+      "offsetY": 4,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 246,
+      "height": 500,
+      "rawWidth": 256,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
