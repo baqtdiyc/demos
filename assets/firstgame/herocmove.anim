@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "herocmove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.08,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 1
+        },
+        {
+          "frame": 0.04,
+          "value": 0.8
+        },
+        {
+          "frame": 0.08,
+          "value": 1
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": -80
+        },
+        {
+          "frame": 0.04,
+          "value": -71
+        },
+        {
+          "frame": 0.08,
+          "value": -80
+        }
+      ]
+    }
+  },
+  "events": []
+}
